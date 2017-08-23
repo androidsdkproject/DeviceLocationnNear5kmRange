@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:summary="Settings"
+        android:title="Settings">
+        <ListPreference
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:key="listpref"
+            android:title="Device Refresh Interval" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Alert Type"
+        android:title="Alert Type">
+        <CheckBoxPreference
+            android:key="choice1"
+            android:summary="On/Off"
+
+            android:title="Choice 1" />
+
+        <CheckBoxPreference
+            android:key="choice2"
+            android:summary="On/Off"
+            android:title="Choice 2" />
+        <CheckBoxPreference
+            android:key="choice3"
+            android:summary="On/Off"
+            android:title="Choice 3" />
+
+        <CheckBoxPreference
+            android:key="choice4"
+            android:summary="On/Off"
+            android:title="Choice 4" />
+
+        <CheckBoxPreference
+            android:key="choice5"
+            android:summary="On/Off"
+            android:title="Choice 5" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

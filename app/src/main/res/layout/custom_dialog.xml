@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:background="#a0a2df"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <TextView
+            android:id="@+id/ch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Choice1"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/Choice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <TextView
+
+            android:id="@+id/ch2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Choice2"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/Choice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <TextView
+            android:id="@+id/ch3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Choice3"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/Choice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <TextView
+            android:id="@+id/ch4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Choice4"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/Choice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50sp">
+
+        <TextView
+            android:id="@+id/ch5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Choice5"
+            android:textSize="17sp" />
+
+        <CheckBox
+            android:id="@+id/Choice5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#8688cf"
+        android:text="Submit" />
+</LinearLayout>

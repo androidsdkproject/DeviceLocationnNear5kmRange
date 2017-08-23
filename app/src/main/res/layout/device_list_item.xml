@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:dividerPadding="5dp"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <TextView
+        android:id="@+id/devicename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="place name"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Distance"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
